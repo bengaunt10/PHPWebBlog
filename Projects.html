@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio-Homepage</title>
+    <link rel="stylesheet" href="css/Styles.css" media="screen and (min-width:769px)">
+    <link rel="stylesheet" href="css/Styles_mobile.css" media="screen and (max-width:768px)" >
+    <link rel="reset" type="text/css" href="css/reset.css" />
+
+</head>
+
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <nav> 
+            <a href="index.html">
+                <h2 class="spaced">Home</h2>
+            </a>
+            <a href="About.html">
+                <h2 class="spaced">About</h2>
+            </a>
+            <a href="Skills.html">
+                <h2 class="spaced">Skills</h2>
+            </a>
+            <a href="Education.html">
+                <h2 class="spaced">Education</h2>
+            </a>
+            <a href="Projects.html">
+                <h2 class="spaced">Projects</h2>
+            </a>
+            <a href="blog_view.php">
+                <h2 class="spaced">Blog</h2>
+            </a>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="page1">
+            <section id="welcome">
+                <h2 class="title">Projects</h2>
+                <p>Scroll down to view some projects I have created in the past</p>
+            </section>   
+            <footer><a href="#page2"><p id="project_footer">V</p></a></footer>
+        </div>
+
+        <div id="page2">
+            <article id="film_page">
+            <h1 class="title"> Short film</h1>
+            <section class="Project_About">
+                <p >This is a Short film named My Kind Of Life which was written, directed and filmed by me. This was produced as coursework for 
+                    A-level film studies.Click the image to view in Vimeo.
+                </p>
+            </section>
+            <figure id="film_image">   
+                <a href="https://player.vimeo.com/video/655711530?h=5e9344a27e&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;
+                app_id=58479%22"><img src="images/film_thumbnail.JPG" id="film_thumbnail"></a>
+                <figcaption class="Project_Caption">Watch Now</figcaption>
+            </figure>
+            </article>
+
+        </div>
+
+        <div id="page3">
+            <h1 class="title" style="color:black">Python-Paint App</h1>
+            <article>
+                <section class="Project_About">
+                    <p style="color:black">This is a project produced in Python by me for my A-Level Computer Science coursework. The program consists of a login page
+                        using an SQL database to store and locate user logins to be authenticated. Once authenticated the user is able to play around in an
+                        environment which enables them to draw on a canvas with multiple tools and also save their image to their pc.
+                    </p>
+                </section>
+                <figure class="Project_Images">
+                    <img id="project_image1"  src="images/project1.png">
+                    <img id="project_image2" src="images/project 2.png">
+                    <img id="project_image3" src="images/project3.png">             
+                </figure>
+            </article>
+        </div>
+        
+        <div id="page4">
+            <h1 class="title">Processing data display</h1>
+            <article>
+                <section class="Project_About">
+                    <p>This is a project produced in Processing by me in university. The data is read in from an excel file and displayed on an interactive
+                        scatter graph. The user can select pieces of data and interact with it, shown on second image.
+                    </p>
+                </section>
+                <figure class="Project_Images">
+                    <img id="project_image4"  src="images/project4.png">
+                    <img id="project_image5" src="images/project5.png">        
+                </figure>
+            </article>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
